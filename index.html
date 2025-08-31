@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemical-X Mart</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Quick styling (you can replace with your CSS later) */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f8fa;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ff4081;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .logo img {
+      height: 70px; /* Bigger logo */
+      filter: drop-shadow(0 0 8px #fff) drop-shadow(0 0 15px #ff80ab); /* Glow effect */
+    }
+
+    .cart img {
+      height: 35px; /* Cart icon size */
+    }
+
+    .navbar .cart {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .navbar .cart span {
+      margin-left: 8px;
+      background: white;
+      color: #ff4081;
+      border-radius: 50%;
+      padding: 2px 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* Product grid */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .product-price {
+      color: #ff4081;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    .rating img {
+      height: 18px;
+    }
+
+    .add-to-cart {
+      margin-top: 10px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .add-to-cart:hover {
+      background: #e73370;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/icons/logo.png" alt="Chemical-X Mart Logo">
+    </div>
+    <div class="cart">
+      <img src="images/icons/cart.png" alt="Cart Icon">
+      <span id="cart-count">0</span>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="product-grid">
+    
+    <div class="product-card">
+      <img src="images/products/sugar.png" alt="Sugar">
+      <div class="product-name">Sugar - Sweet Crystal Pack</div>
+      <div class="product-price">$4.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/spices.png" alt="Spice">
+      <div class="product-name">Spice - Fiery Mix</div>
+      <div class="product-price">$7.99</div>
+      <div class="rating">
+        <img src="images/ratings/4.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/every_thing_nice.png" alt="Everything Nice">
+      <div class="product-name">Everything Nice - Mystery Pack</div>
+      <div class="product-price">$12.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/chemical_x.png" alt="Chemical X">
+      <div class="product-name">Chemical X - Limited Edition</div>
+      <div class="product-price">$99.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/rainbow_sprinkles.png" alt="Rainbow Sprinkles">
+      <div class="product-name">Rainbow Sprinkles</div>
+      <div class="product-price">$6.99</div>
+      <div class="rating">
+        <img src="images/ratings/4.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/unicorn_tears.png" alt="Unicorn Tears">
+      <div class="product-name">Unicorn Tears - Magical Essence</div>
+      <div class="product-price">$29.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/cupcake_batter.png" alt="Cupcake Batter">
+      <div class="product-name">Cupcake Batter - Ready Mix</div>
+      <div class="product-price">$8.99</div>
+      <div class="rating">
+        <img src="images/ratings/4.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/fairy_dust.png" alt="Fairy Dust">
+      <div class="product-name">Fairy Dust - Sparkling Magic</div>
+      <div class="product-price">$15.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/lighting_in_bottle.png" alt="Lightning in a Bottle">
+      <div class="product-name">Lightning in a Bottle</div>
+      <div class="product-price">$24.99</div>
+      <div class="rating">
+        <img src="images/ratings/4.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/glow_goo.png" alt="Glow Goo">
+      <div class="product-name">Glow Goo - Lab Special</div>
+      <div class="product-price">$18.99</div>
+      <div class="rating">
+        <img src="images/ratings/3.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/ice_shards.png" alt="Ice Shards">
+      <div class="product-name">Ice Shards - Frozen Pack</div>
+      <div class="product-price">$11.99</div>
+      <div class="rating">
+        <img src="images/ratings/4.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/products/dragon_fruit.png" alt="Dragon Fruit Essence">
+      <div class="product-name">Dragon Fruit Essence</div>
+      <div class="product-price">$20.99</div>
+      <div class="rating">
+        <img src="images/ratings/5.png" alt="Rating">
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
