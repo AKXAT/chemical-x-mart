@@ -5,7 +5,8 @@
     "name": "Sugar - Sweet Crystal Pack",
     "rating": {
       "stars": 4.8,
-      "count": 152
+      "count": 152,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 499,
     "keywords": ["sugar", "sweet", "ingredient", "baking"]
@@ -16,7 +17,8 @@
     "name": "Spice - Fiery Mix",
     "rating": {
       "stars": 4.6,
-      "count": 131
+      "count": 131,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 799,
     "keywords": ["spice", "hot", "pepper", "ingredient"]
@@ -27,7 +29,8 @@
     "name": "Everything Nice - Mystery Pack",
     "rating": {
       "stars": 4.7,
-      "count": 98
+      "count": 98,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 1299,
     "keywords": ["nice", "mystery", "ingredient", "flavor"]
@@ -38,7 +41,8 @@
     "name": "Chemical X - Limited Edition",
     "rating": {
       "stars": 5.0,
-      "count": 12
+      "count": 12,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 9999,
     "keywords": ["chemical", "x", "lab", "ingredient", "power"]
@@ -49,7 +53,8 @@
     "name": "Rainbow Sprinkles",
     "rating": {
       "stars": 4.5,
-      "count": 77
+      "count": 77,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 699,
     "keywords": ["rainbow", "sprinkles", "colorful", "topping"]
@@ -60,7 +65,8 @@
     "name": "Unicorn Tears - Magical Essence",
     "rating": {
       "stars": 4.9,
-      "count": 205
+      "count": 205,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 2999,
     "keywords": ["unicorn", "tears", "magic", "rare"]
@@ -71,7 +77,8 @@
     "name": "Cupcake Batter - Ready Mix",
     "rating": {
       "stars": 4.4,
-      "count": 63
+      "count": 63,
+      "image": "images/ratings/4.png"
     },
     "priceCents": 899,
     "keywords": ["cupcake", "batter", "baking", "sweet"]
@@ -82,7 +89,8 @@
     "name": "Fairy Dust - Sparkling Magic",
     "rating": {
       "stars": 4.8,
-      "count": 144
+      "count": 144,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 1599,
     "keywords": ["fairy", "dust", "magic", "sparkles"]
@@ -93,7 +101,8 @@
     "name": "Lightning in a Bottle",
     "rating": {
       "stars": 4.6,
-      "count": 54
+      "count": 54,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 2499,
     "keywords": ["lightning", "bottle", "energy", "power"]
@@ -104,7 +113,8 @@
     "name": "Glow Goo - Lab Special",
     "rating": {
       "stars": 4.3,
-      "count": 41
+      "count": 41,
+      "image": "images/ratings/4.png"
     },
     "priceCents": 1899,
     "keywords": ["glow", "goo", "lab", "science"]
@@ -115,7 +125,8 @@
     "name": "Ice Shards - Frozen Pack",
     "rating": {
       "stars": 4.5,
-      "count": 66
+      "count": 66,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 1199,
     "keywords": ["ice", "shards", "cold", "frozen"]
@@ -126,7 +137,8 @@
     "name": "Dragon Fruit Essence",
     "rating": {
       "stars": 4.7,
-      "count": 83
+      "count": 83,
+      "image": "images/ratings/5.png"
     },
     "priceCents": 2099,
     "keywords": ["dragon", "fruit", "essence", "rare"]
