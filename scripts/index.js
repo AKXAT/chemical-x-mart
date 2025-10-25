@@ -8,14 +8,16 @@ fetch('./backend/products.json')
     const products = data;
     productsHtml = printLoop(products);
     document.querySelector('.js-product-grid').innerHTML = productsHtml;
-    addToCart();
+    addToCart()
   });
 
 
   // Generate the HTML 
 const printLoop = function(products) {
     let generateHtml = '';
+    let quantityHtml = ''
     products.forEach(element => {
+        quantityHtml = getQuantityHtml(element.quantity);
         generateHtml = generateHtml +  `
     <div class="product-card">
       <img src="${element.image}">
@@ -25,14 +27,11 @@ const printLoop = function(products) {
         <img src="${element.rating.image}" alt="${element.rating.stars}">
       <label for="quantity">Quantity:</label>
       <select id="quantity" name="quantity" class="js-quantity">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+      ${quantityHtml}
       </select>
       </div>
-      <button class="add-to-cart js-add-to-cart">
+      <button class="add-to-cart js-add-to-cart" 
+      data-product-name="${element.name}">
       Add to Cart
       </button>
     </div>
@@ -46,6 +45,20 @@ const printLoop = function(products) {
 
 var addToCart = function() {
   document.querySelectorAll('.js-add-to-cart').forEach((button) => {button.addEventListener('click',() => {
-    alert("test")
+    const productName = button.dataset.productName;
+    cart.push({
+      productName: productName,
+      quantity:1
+    })
+    alert(cart)
   } )}) 
+}
+
+
+var getQuantityHtml = function(quantity) {
+  let generatedHtml = ''
+  for (let i = 1 ; i <= quantity ; i++ ){
+    generatedHtml += `<option class="js-product-quantity" value="${i}">${i}</option>`
+  }
+  return generatedHtml;
 }

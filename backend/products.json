@@ -9,7 +9,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 499,
-    "keywords": ["sugar", "sweet", "ingredient", "baking"]
+    "keywords": ["sugar", "sweet", "ingredient", "baking"],
+    "quantity": 5
   },
   {
     "id": "b2e34f56-6aa0-4b85-b27f-222222222222",
@@ -21,7 +22,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 799,
-    "keywords": ["spice", "hot", "pepper", "ingredient"]
+    "keywords": ["spice", "hot", "pepper", "ingredient"],
+    "quantity": 5
   },
   {
     "id": "c3f45g67-6aa0-4b85-b27f-333333333333",
@@ -33,7 +35,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 1299,
-    "keywords": ["nice", "mystery", "ingredient", "flavor"]
+    "keywords": ["nice", "mystery", "ingredient", "flavor"],
+    "quantity": 5
   },
   {
     "id": "d4g56h78-6aa0-4b85-b27f-444444444444",
@@ -45,7 +48,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 9999,
-    "keywords": ["chemical", "x", "lab", "ingredient", "power"]
+    "keywords": ["chemical", "x", "lab", "ingredient", "power"],
+    "quantity": 5
   },
   {
     "id": "e5h67i89-6aa0-4b85-b27f-555555555555",
@@ -57,7 +61,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 699,
-    "keywords": ["rainbow", "sprinkles", "colorful", "topping"]
+    "keywords": ["rainbow", "sprinkles", "colorful", "topping"],
+    "quantity": 5
   },
   {
     "id": "f6i78j90-6aa0-4b85-b27f-666666666666",
@@ -69,7 +74,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 2999,
-    "keywords": ["unicorn", "tears", "magic", "rare"]
+    "keywords": ["unicorn", "tears", "magic", "rare"],
+    "quantity": 5
   },
   {
     "id": "g7j89k01-6aa0-4b85-b27f-777777777777",
@@ -81,7 +87,8 @@
       "image": "images/ratings/4.png"
     },
     "priceCents": 899,
-    "keywords": ["cupcake", "batter", "baking", "sweet"]
+    "keywords": ["cupcake", "batter", "baking", "sweet"],
+    "quantity": 5
   },
   {
     "id": "h8k90l12-6aa0-4b85-b27f-888888888888",
@@ -93,7 +100,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 1599,
-    "keywords": ["fairy", "dust", "magic", "sparkles"]
+    "keywords": ["fairy", "dust", "magic", "sparkles"],
+    "quantity": 5
   },
   {
     "id": "i9l01m23-6aa0-4b85-b27f-999999999999",
@@ -105,7 +113,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 2499,
-    "keywords": ["lightning", "bottle", "energy", "power"]
+    "keywords": ["lightning", "bottle", "energy", "power"],
+    "quantity": 5
   },
   {
     "id": "j0m12n34-6aa0-4b85-b27f-101010101010",
@@ -117,7 +126,8 @@
       "image": "images/ratings/4.png"
     },
     "priceCents": 1899,
-    "keywords": ["glow", "goo", "lab", "science"]
+    "keywords": ["glow", "goo", "lab", "science"],
+    "quantity": 5
   },
   {
     "id": "k1n23o45-6aa0-4b85-b27f-111111111112",
@@ -129,7 +139,8 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 1199,
-    "keywords": ["ice", "shards", "cold", "frozen"]
+    "keywords": ["ice", "shards", "cold", "frozen"],
+    "quantity": 5
   },
   {
     "id": "l2o34p56-6aa0-4b85-b27f-111111111113",
@@ -141,6 +152,7 @@
       "image": "images/ratings/5.png"
     },
     "priceCents": 2099,
-    "keywords": ["dragon", "fruit", "essence", "rare"]
+    "keywords": ["dragon", "fruit", "essence", "rare"],
+    "quantity": 5
   }
 ]
