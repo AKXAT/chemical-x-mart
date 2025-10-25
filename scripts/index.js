@@ -46,11 +46,7 @@ const printLoop = function(products) {
 var addToCart = function() {
   document.querySelectorAll('.js-add-to-cart').forEach((button) => {button.addEventListener('click',() => {
     const productName = button.dataset.productName;
-    cart.push({
-      productName: productName,
-      quantity:1
-    })
-    alert(cart)
+    ifProductAlreadyInList(productName)
   } )}) 
 }
 
@@ -61,4 +57,24 @@ var getQuantityHtml = function(quantity) {
     generatedHtml += `<option class="js-product-quantity" value="${i}">${i}</option>`
   }
   return generatedHtml;
+}
+
+var ifProductAlreadyInList = function(productName) {
+  let found = false;
+
+  cart.forEach(element => {
+    if (element.productName === productName) {
+      element.productQuantity += 1;
+      found = true;
+    }
+  });
+
+  if (!found) {
+    cart.push({
+      productName: productName,
+      productQuantity: 1
+    });
+  }
+
+  return cart;
 }
