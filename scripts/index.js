@@ -75,6 +75,6 @@ var ifProductAlreadyInList = function(productName) {
       productQuantity: 1
     });
   }
-
+  console.log(cart);
   return cart;
 }
